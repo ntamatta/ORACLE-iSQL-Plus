@@ -44,3 +44,6 @@ RENAME NIKHIL777 to Nikhil786
 
 
 DROP table Nikhil786
+
+ALTER TABLE Nikhil7
+add primary key(SID);
