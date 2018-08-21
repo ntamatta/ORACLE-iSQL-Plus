@@ -47,3 +47,28 @@ DROP table Nikhil786
 
 ALTER TABLE Nikhil7
 add primary key(SID);
+
+
+CREATE TABLE new_table_name (column1, column2, column3,…..column_n)
+AS SELECT col1, col2, col3,…cold FROM old_table_name WHERE 1=2;
+
+
+ORDER BY CLAUSE:
+SELECT * from table_name
+ORDER BY column_name;                               (“specify Asc/desc ; default is ascending”)
+
+
+LIKE clause:
+
+SELECT * from table_name
+WHERE column_name like
+
+Query,
+
+SELECT * from customer
+Where cust_name like ‘_a%’ or cust_name like ‘_s%’;
+
+IN Clause:
+
+Select * from table_name where
+cust_name in (‘Sameer’,’samara’,’Rehman’);
